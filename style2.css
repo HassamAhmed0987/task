@@ -19,7 +19,7 @@ body{
     height: 50%;
     display: flex;
 }
-.login{
+.register{
     backdrop-filter: blur(10px);
     text-align: center;
     /* border: 1px solid blue; */
@@ -32,7 +32,7 @@ body{
 .logo{
     margin: 20px 0;
 }
-.login input[type="text"]{
+.register input[type="text"]{
     background: url(./user-removebg-preview.png);
     background-size: 15px;
     background-repeat: no-repeat;
@@ -44,24 +44,31 @@ body{
     border-radius: 8px;
     border: none;
 }
-.login input[type="password"]{
-    background: url(https://www.freeiconspng.com/uploads/black-lock-icon-14.png);
+.register input[type="email"]{
+    background: url(./_12324-removebg-preview.png);
     background-size: 15px;
     background-repeat: no-repeat;
     background-position: right 10px center;
-    background-color: rgba(128, 128, 128, 0.425);
+    background-color: rgba(128, 128, 128, 0.432);
     margin: 10px 0;
     height: 30px;
     padding: 0 10px;
     border-radius: 8px;
     border: none;
 }
-.login a{
-    text-decoration: none;
-    color: black;
-    margin: 5px 0;
+.register input[type="password"]{
+    background: url(https://www.freeiconspng.com/uploads/black-lock-icon-14.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-color: rgba(128, 128, 128, 0.432);
+    margin: 10px 0;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 8px;
+    border: none;
 }
-.login button{
+.register button{
     background-color: #F2212E;
     border: none;
     border-radius: 8px;
@@ -69,12 +76,19 @@ body{
     margin: 10px 0;
     height: 30px;
 }
-.login p{
+.register p{
     margin: 10px 0;
 }
+.register a{
+    text-decoration: none;
+    color: black;
+    margin: 5px 0;
+}
 .icons{
+    /* border: 1px solid green; */
     display: flex;
     justify-content: center;
+    /* flex-wrap: wrap; */
 }
 .icon{
     padding-top: 5px;
