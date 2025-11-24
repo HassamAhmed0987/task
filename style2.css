@@ -78,6 +78,19 @@ body{
     margin: 10px 0;
     height: 30px;
 }
+.register button:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 20px #F2212E;
+}
+button p:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: rotateX(360deg);
+  
+}
+.register button:active{
+    transform: translateY(4px);
+}
 .register p{
     margin: 10px 0;
 }

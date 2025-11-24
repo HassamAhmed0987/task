@@ -44,6 +44,9 @@ body{
     border-radius: 8px;
     border: none;
 }
+.login input[type="text"]:active{
+    box-shadow: 0 5px 20px  rgba(128, 128, 128, 0.425);
+}
 .login input[type="password"]{
     background: url(https://www.freeiconspng.com/uploads/black-lock-icon-14.png);
     background-size: 15px;
@@ -68,6 +71,19 @@ body{
     color: white;
     margin: 10px 0;
     height: 30px;
+}
+.login button:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 20px #F2212E;
+}
+button p:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: rotateX(360deg);
+  
+}
+.login button:active{
+    transform: translateY(4px);
 }
 .login p{
     margin: 10px 0;
