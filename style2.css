@@ -114,6 +114,7 @@ body{
 }
 .register button:hover{
     cursor: pointer;
+    transform: translateY(-5px);
     box-shadow: 0 4px 20px #F2212E;
 }
 button p:hover{
