@@ -18,6 +18,19 @@ body{
     width: 40%;
     height: 50%;
     display: flex;
+    animation-name: scale;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+@keyframes scale {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(100%);
+    }
+    
 }
 .register{
     backdrop-filter: blur(10px);
@@ -46,6 +59,13 @@ body{
     border-radius: 8px;
     border: none;
 }
+.register input[type="text"]:focus{
+    box-shadow: 5px 5px 20px 10px rgba(128, 128, 128, 0.582);
+}
+.register input[type="text"]:hover{
+    transform: scale(1.01);
+    
+}
 .register input[type="email"]{
     background: url(./_12324-removebg-preview.png);
     background-size: 15px;
@@ -58,6 +78,13 @@ body{
     border-radius: 8px;
     border: none;
 }
+.register input[type="email"]:focus{
+    box-shadow: 5px 5px 20px 10px rgba(128, 128, 128, 0.582);
+}
+.register input[type="email"]:hover{
+    transform: scale(1.01);
+    
+}
 .register input[type="password"]{
     background: url(https://www.freeiconspng.com/uploads/black-lock-icon-14.png);
     background-size: 15px;
@@ -69,6 +96,13 @@ body{
     padding: 0 10px;
     border-radius: 8px;
     border: none;
+}
+.register input[type="password"]:focus{
+    box-shadow: 5px 5px 20px 10px rgba(128, 128, 128, 0.582);
+}
+.register input[type="password"]:hover{
+    transform: scale(1.01);
+    
 }
 .register button{
     background-color: #F2212E;
